@@ -1,0 +1,633 @@
+2024-09-27T02:59:10.224Z [ERROR]: Error connecting to MongoDB: Protocol and host list are required in "mongodb+srv://BharatLinkerProducts:shubham20DAS@@bharatlinkerproducts.qnv1x.mongodb.net/"
+2024-09-27T02:59:10.228Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+2024-09-27T02:59:15.234Z [ERROR]: Error connecting to MongoDB: Protocol and host list are required in "mongodb+srv://BharatLinkerProducts:shubham20DAS@@bharatlinkerproducts.qnv1x.mongodb.net/"
+2024-09-27T02:59:15.235Z [INFO]: Retrying to connect in 5 seconds... (3 attempts left)
+2024-09-27T02:59:20.236Z [ERROR]: Error connecting to MongoDB: Protocol and host list are required in "mongodb+srv://BharatLinkerProducts:shubham20DAS@@bharatlinkerproducts.qnv1x.mongodb.net/"
+2024-09-27T02:59:20.237Z [INFO]: Retrying to connect in 5 seconds... (2 attempts left)
+2024-09-27T02:59:25.240Z [ERROR]: Error connecting to MongoDB: Protocol and host list are required in "mongodb+srv://BharatLinkerProducts:shubham20DAS@@bharatlinkerproducts.qnv1x.mongodb.net/"
+2024-09-27T02:59:25.241Z [INFO]: Retrying to connect in 5 seconds... (1 attempts left)
+2024-09-27T02:59:30.254Z [ERROR]: Error connecting to MongoDB: Protocol and host list are required in "mongodb+srv://BharatLinkerProducts:shubham20DAS@@bharatlinkerproducts.qnv1x.mongodb.net/"
+2024-09-27T03:02:12.487Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:02:47.356Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:03:04.194Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:05:16.263Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:05:27.268Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:05:45.956Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:06:54.298Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:06:59.378Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:07:13.314Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:07:27.011Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:07:36.542Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:07:50.959Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:07:55.339Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:08:06.032Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:08:13.509Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:08:18.544Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:08:33.509Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:08:41.173Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:08:45.569Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:08:51.872Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:08:57.030Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:09:04.385Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:09:13.982Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:09:44.676Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:10:04.792Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:10:17.145Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:10:25.717Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:10:49.104Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:12:40.788Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:13:45.950Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:15:16.207Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:16:01.847Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:16:06.500Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:16:18.503Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:16:23.518Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:16:28.649Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:16:37.611Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:16:48.282Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:16:55.767Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:17:14.223Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:17:30.696Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:17:43.503Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:17:59.135Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:18:13.977Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:18:27.160Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:18:32.396Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:18:42.654Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:18:49.972Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:18:53.219Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:18:57.727Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:19:44.682Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:20:14.975Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:20:28.175Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:20:38.551Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:21:02.956Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:21:16.480Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:21:28.643Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:21:33.880Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:21:55.342Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:23:02.260Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:23:19.329Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:24:01.762Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:24:11.402Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:24:29.671Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:24:43.659Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:24:56.033Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:25:07.045Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:25:24.916Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:25:31.638Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:25:48.391Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:26:02.573Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:26:09.196Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:26:22.281Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:26:28.979Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:26:53.707Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:26:58.083Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:28:57.069Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+2024-09-27T03:29:19.392Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T03:41:02.019Z"}
+2024-09-27T03:41:04.276Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T03:41:31.729Z"}
+2024-09-27T03:41:34.993Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-27T03:42:28.315Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2024-09-27T03:42:32.728Z"}
+2024-09-27T03:42:33.864Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T03:42:44.040Z"}
+2024-09-27T03:42:45.158Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:36:41.818Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:37:11.765Z"}
+2024-09-27T05:37:42.778Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:37:42.784Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-27T05:38:08.739Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:38:28.875Z"}
+2024-09-27T05:38:59.245Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:38:59.252Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+2024-09-27T05:39:35.900Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:39:35.906Z [INFO]: Retrying to connect in 5 seconds... (3 attempts left)
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:40:15.927Z"}
+2024-09-27T05:40:48.013Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:40:48.023Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:41:07.768Z"}
+2024-09-27T05:41:38.379Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:41:38.385Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+2024-09-27T05:42:14.915Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:42:14.920Z [INFO]: Retrying to connect in 5 seconds... (3 attempts left)
+2024-09-27T05:42:49.967Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:42:49.973Z [INFO]: Retrying to connect in 5 seconds... (2 attempts left)
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:43:02.659Z"}
+2024-09-27T05:43:33.704Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:43:33.873Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+2024-09-27T05:44:09.085Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:44:09.093Z [INFO]: Retrying to connect in 5 seconds... (3 attempts left)
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:45:09.095Z"}
+2024-09-27T05:45:39.846Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:45:39.918Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:45:57.272Z"}
+2024-09-27T05:46:28.195Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:46:28.203Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:47:14.843Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:47:54.611Z"}
+2024-09-27T05:48:25.201Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:48:25.218Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:48:32.900Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:49:04.265Z"}
+2024-09-27T05:49:34.868Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:49:34.883Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+2024-09-27T05:50:10.413Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:50:10.419Z [INFO]: Retrying to connect in 5 seconds... (3 attempts left)
+2024-09-27T05:50:45.884Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:50:45.892Z [INFO]: Retrying to connect in 5 seconds... (2 attempts left)
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:51:14.890Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:51:28.391Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:53:04.244Z"}
+2024-09-27T05:53:36.074Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:53:36.078Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+2024-09-27T05:54:11.165Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:54:11.174Z [INFO]: Retrying to connect in 5 seconds... (3 attempts left)
+2024-09-27T05:54:46.765Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:54:46.783Z [INFO]: Retrying to connect in 5 seconds... (2 attempts left)
+2024-09-27T05:55:23.148Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-27T05:55:23.153Z [INFO]: Retrying to connect in 5 seconds... (1 attempts left)
+2024-09-27T05:55:44.894Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:58:14.734Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:58:38.877Z"}
+2024-09-27T05:58:40.353Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T05:59:06.779Z"}
+2024-09-27T05:59:08.048Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:00:39.883Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:01:24.054Z"}
+2024-09-27T06:01:25.393Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:01:51.996Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:02:11.779Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:03:00.002Z"}
+2024-09-27T06:03:02.595Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:03:24.312Z"}
+2024-09-27T06:03:25.506Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"error","message":"Error: ENOENT: no such file or directory, open 'C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\public.temp\\Screenshot 2024-09-25 195120.png'","timestamp":"2024-09-27T06:11:07.402Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:13:24.824Z"}
+2024-09-27T06:13:26.636Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"error","message":"Error: ENOENT: no such file or directory, open 'C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\public.temp\\Screenshot 2024-09-25 195120.png'","timestamp":"2024-09-27T06:13:32.241Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:14:56.372Z"}
+2024-09-27T06:14:58.973Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"error","message":"TypeError: files is not iterable\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/api/controller/productController.js:28:24\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/utils/asyncHandler.js:16:25\n    at Layer.handle [as handle_request] (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at done (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:155:11\n    at WriteStream.<anonymous> (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:530:35)\n    at finish (node:internal/streams/writable:945:10)","timestamp":"2024-09-27T06:15:02.090Z"}
+{"level":"error","message":"TypeError: files is not iterable\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/api/controller/productController.js:28:24\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/utils/asyncHandler.js:16:25\n    at Layer.handle [as handle_request] (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at done (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:155:11\n    at WriteStream.<anonymous> (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:530:35)\n    at finish (node:internal/streams/writable:945:10)","timestamp":"2024-09-27T06:16:08.854Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:16:52.563Z"}
+2024-09-27T06:16:55.867Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"error","message":"TypeError: files is not iterable\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/api/controller/productController.js:28:24\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/utils/asyncHandler.js:16:25\n    at Layer.handle [as handle_request] (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at done (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:155:11\n    at WriteStream.<anonymous> (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:530:35)\n    at finish (node:internal/streams/writable:945:10)","timestamp":"2024-09-27T06:16:59.227Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:17:22.765Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:17:30.357Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:17:54.300Z"}
+2024-09-27T06:17:57.010Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:18:35.339Z"}
+2024-09-27T06:18:36.589Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:19:03.389Z"}
+2024-09-27T06:19:06.679Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T06:19:38.827Z"}
+2024-09-27T06:19:39.957Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T08:08:52.205Z"}
+2024-09-27T08:08:55.651Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T08:14:56.228Z"}
+2024-09-27T08:15:00.411Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-27T08:25:47.712Z"}
+{"level":"info","message":"SIGINT signal received: closing server"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T08:25:52.478Z"}
+2024-09-27T08:25:54.844Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-27T08:26:34.982Z"}
+2024-09-27T08:26:38.925Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:16:14.188Z"}
+2024-09-30T05:16:18.379Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2024-09-30T05:19:53.945Z"}
+2024-09-30T05:19:56.097Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running on port 3001","timestamp":"2024-09-30T05:21:20.018Z"}
+2024-09-30T05:21:22.565Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:21:50.088Z"}
+2024-09-30T05:21:51.553Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:26:32.328Z"}
+2024-09-30T05:26:34.508Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:27:13.664Z"}
+2024-09-30T05:27:15.392Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:29:06.490Z"}
+2024-09-30T05:29:07.917Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:31:07.468Z"}
+2024-09-30T05:31:09.498Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:31:16.272Z"}
+2024-09-30T05:31:17.392Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:32:05.828Z"}
+2024-09-30T05:32:07.433Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:35:27.363Z"}
+2024-09-30T05:35:40.457Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:36:57.430Z"}
+2024-09-30T05:37:01.176Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:51:21.881Z"}
+2024-09-30T05:51:35.949Z [ERROR]: Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.bharatlinkerproducts.qnv1x.mongodb.net
+2024-09-30T05:51:35.951Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-30T05:51:50.620Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:51:56.962Z"}
+2024-09-30T05:52:15.945Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:52:51.479Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:53:05.193Z"}
+2024-09-30T05:53:17.455Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:53:43.964Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:53:45.293Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:53:49.964Z"}
+2024-09-30T05:53:53.999Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:54:31.146Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:54:32.472Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:54:36.223Z"}
+2024-09-30T05:54:37.210Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:54:40.121Z"}
+2024-09-30T05:54:50.279Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:56:06.229Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:56:11.321Z"}
+2024-09-30T05:56:13.075Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:57:10.381Z"}
+2024-09-30T05:57:12.684Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:57:14.265Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:57:29.290Z"}
+2024-09-30T05:57:30.649Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T05:58:45.385Z"}
+2024-09-30T05:58:56.461Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:34:56.127Z"}
+2024-09-30T06:34:57.943Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:35:00.767Z"}
+2024-09-30T06:35:02.418Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-30T06:35:44.489Z"}
+{"level":"info","message":"SIGINT signal received: closing server"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:35:52.079Z"}
+2024-09-30T06:35:53.723Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:37:22.899Z"}
+2024-09-30T06:37:24.677Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:40:25.112Z"}
+2024-09-30T06:40:27.998Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"error","message":"ValidationError: Product validation failed: shop: Cast to ObjectId failed for value \"undefined\" (type string) at path \"shop\" because of \"BSONError\"\n    at Document.invalidate (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:3318:32)\n    at model.$set (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:1474:12)\n    at model.$set (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:1128:16)\n    at model.Document (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:177:12)\n    at model.Model (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\model.js:124:12)\n    at new model (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\model.js:4574:15)\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/api/controller/productController.js:53:24\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-09-30T06:40:53.449Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:41:32.558Z"}
+2024-09-30T06:41:34.345Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"error","message":"ValidationError: Product validation failed: shop: Cast to ObjectId failed for value \"undefined\" (type string) at path \"shop\" because of \"BSONError\"\n    at Document.invalidate (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:3318:32)\n    at model.$set (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:1474:12)\n    at model.$set (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:1128:16)\n    at model.Document (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:177:12)\n    at model.Model (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\model.js:124:12)\n    at new model (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\model.js:4574:15)\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/api/controller/productController.js:46:24\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-09-30T06:41:54.893Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:44:02.497Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:44:13.082Z"}
+2024-09-30T06:44:20.384Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:44:45.282Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:45:00.032Z"}
+2024-09-30T06:45:05.273Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-30T06:55:23.406Z"}
+{"level":"info","message":"SIGINT signal received: closing server"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:55:30.165Z"}
+2024-09-30T06:55:31.278Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:57:15.957Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:57:27.254Z"}
+2024-09-30T06:57:28.680Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:57:32.776Z"}
+2024-09-30T06:57:33.920Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-30T06:57:51.824Z"}
+{"level":"info","message":"SIGINT signal received: closing server"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T06:57:59.295Z"}
+2024-09-30T06:58:02.111Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:00:11.919Z"}
+2024-09-30T07:00:14.550Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:01:42.176Z"}
+2024-09-30T07:02:13.350Z [ERROR]: Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.bharatlinkerproducts.qnv1x.mongodb.net
+2024-09-30T07:02:13.351Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+{"level":"error","message":"MongooseError: Operation `products.insertOne()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)","timestamp":"2024-09-30T07:02:24.479Z"}
+2024-09-30T07:02:33.556Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:05:48.206Z"}
+2024-09-30T07:05:49.832Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:10:10.436Z"}
+2024-09-30T07:10:12.706Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:10:44.019Z"}
+2024-09-30T07:10:46.825Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:11:21.097Z"}
+2024-09-30T07:11:24.335Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:13:11.166Z"}
+2024-09-30T07:13:12.696Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:13:15.457Z"}
+2024-09-30T07:13:16.933Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:26:24.526Z"}
+2024-09-30T07:26:25.696Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:34:22.870Z"}
+2024-09-30T07:34:25.561Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:34:39.319Z"}
+2024-09-30T07:34:40.314Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:43:02.714Z"}
+2024-09-30T07:43:05.524Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T07:43:18.786Z"}
+2024-09-30T07:43:20.871Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:00:02.517Z"}
+2024-09-30T08:00:05.754Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:00:11.011Z"}
+2024-09-30T08:00:12.374Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:00:25.057Z"}
+2024-09-30T08:00:26.090Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:00:33.108Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:00:38.755Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:00:42.938Z"}
+2024-09-30T08:00:44.148Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:00:48.993Z"}
+2024-09-30T08:00:50.471Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:01:10.863Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:01:18.233Z"}
+2024-09-30T08:01:20.951Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:03:06.218Z"}
+2024-09-30T08:03:08.058Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:04:08.891Z"}
+2024-09-30T08:04:10.785Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:04:30.754Z"}
+2024-09-30T08:04:32.715Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:04:46.172Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:04:50.537Z"}
+2024-09-30T08:04:51.696Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:04:55.319Z"}
+2024-09-30T08:04:56.427Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"error","message":"ValidationError: Product validation failed: pinCodes.0: Cast to [Number] failed for value \"[ NaN ]\" (type string) at path \"pinCodes.0\" because of \"CastError\", shop: Cast to ObjectId failed for value \"undefined\" (type string) at path \"shop\" because of \"BSONError\"\n    at Document.invalidate (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:3318:32)\n    at model.$set (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:1474:12)\n    at model.$set (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:1128:16)\n    at model.Document (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:177:12)\n    at model.Model (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\model.js:124:12)\n    at new model (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\model.js:4574:15)\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/api/controller/productController.js:53:24\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-09-30T08:07:49.763Z"}
+{"level":"error","message":"ValidationError: Product validation failed: pinCodes.0: Cast to [Number] failed for value \"[ NaN ]\" (type string) at path \"pinCodes.0\" because of \"CastError\"\n    at Document.invalidate (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:3318:32)\n    at model.$set (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:1474:12)\n    at model.$set (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:1128:16)\n    at model.Document (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\document.js:177:12)\n    at model.Model (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\model.js:124:12)\n    at new model (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\mongoose\\lib\\model.js:4574:15)\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/api/controller/productController.js:53:24\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-09-30T08:09:01.351Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:09:25.052Z"}
+2024-09-30T08:09:27.925Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:10:24.010Z"}
+2024-09-30T08:10:25.067Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:12:10.908Z"}
+2024-09-30T08:12:14.489Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-30T08:56:02.598Z"}
+{"level":"info","message":"SIGINT signal received: closing server"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:56:09.543Z"}
+2024-09-30T08:56:13.999Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:58:06.598Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:58:07.754Z"}
+2024-09-30T08:58:10.276Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:58:12.724Z"}
+2024-09-30T08:58:15.430Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:58:17.045Z"}
+2024-09-30T08:58:19.199Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T08:59:11.540Z"}
+2024-09-30T08:59:15.601Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:02:11.305Z"}
+2024-09-30T09:02:13.813Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:03:04.100Z"}
+2024-09-30T09:03:05.858Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:03:13.175Z"}
+2024-09-30T09:03:15.561Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:03:31.706Z"}
+2024-09-30T09:03:34.777Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:03:54.872Z"}
+2024-09-30T09:03:58.428Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:04:41.884Z"}
+2024-09-30T09:04:45.271Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:04:55.499Z"}
+2024-09-30T09:04:57.371Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:05:44.112Z"}
+2024-09-30T09:05:46.940Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:06:56.017Z"}
+2024-09-30T09:06:57.860Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:31:02.667Z"}
+2024-09-30T09:31:05.769Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:31:15.856Z"}
+2024-09-30T09:31:18.521Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:34:59.096Z"}
+2024-09-30T09:35:02.900Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T09:39:16.583Z"}
+2024-09-30T09:39:18.902Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"error","message":"MulterError: Unexpected field\n    at wrappedFileFilter (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\index.js:40:19)\n    at Multipart.<anonymous> (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:107:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)\n    at writeOrBuffer (node:internal/streams/writable:564:12)","timestamp":"2024-09-30T10:24:07.992Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T10:24:33.909Z"}
+2024-09-30T10:24:36.331Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T10:25:48.468Z"}
+2024-09-30T10:25:50.499Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T10:26:11.806Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T10:26:16.803Z"}
+2024-09-30T10:26:18.392Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T10:26:23.217Z"}
+2024-09-30T10:26:25.098Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T10:26:30.184Z"}
+2024-09-30T10:26:31.566Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T10:27:20.003Z"}
+2024-09-30T10:27:23.245Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"error","message":"MulterError: Unexpected field\n    at wrappedFileFilter (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\index.js:40:19)\n    at Multipart.<anonymous> (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:107:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)\n    at writeOrBuffer (node:internal/streams/writable:564:12)","timestamp":"2024-09-30T10:27:38.223Z"}
+{"level":"error","message":"MulterError: Unexpected field\n    at wrappedFileFilter (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\index.js:40:19)\n    at Multipart.<anonymous> (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:107:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\streamsearch\\lib\\sbmh.js:248:10)\n    at SBMH.push (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)\n    at writeOrBuffer (node:internal/streams/writable:564:12)","timestamp":"2024-09-30T10:28:38.076Z"}
+{"level":"error","message":"MulterError: Unexpected field\n    at wrappedFileFilter (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\index.js:40:19)\n    at Multipart.<anonymous> (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\multer\\lib\\make-middleware.js:107:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\streamsearch\\lib\\sbmh.js:248:10)\n    at SBMH.push (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (C:\\Users\\shubh\\OneDrive\\Desktop\\BharatLinkerProducts\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)\n    at writeOrBuffer (node:internal/streams/writable:564:12)","timestamp":"2024-09-30T10:29:27.056Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T10:32:56.588Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T10:32:58.889Z"}
+2024-09-30T10:33:01.013Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading 'message')\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/api/controller/productController.js:57:26\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-09-30T11:34:36.071Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T11:34:52.321Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T11:35:05.965Z"}
+2024-09-30T11:35:53.276Z [ERROR]: Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-30T11:35:53.277Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+2024-09-30T11:36:28.528Z [ERROR]: Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.bharatlinkerproducts.qnv1x.mongodb.net
+2024-09-30T11:36:28.530Z [INFO]: Retrying to connect in 5 seconds... (3 attempts left)
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-30T11:37:03.660Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T11:37:24.361Z"}
+2024-09-30T11:37:55.512Z [ERROR]: Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.bharatlinkerproducts.qnv1x.mongodb.net
+2024-09-30T11:37:55.514Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+{"level":"error","message":"TypeError: Cannot read properties of null (reading 'message')\n    at file:///C:/Users/shubh/OneDrive/Desktop/BharatLinkerProducts/src/api/controller/productController.js:56:26\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-09-30T11:38:06.009Z"}
+2024-09-30T11:38:30.689Z [ERROR]: Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.bharatlinkerproducts.qnv1x.mongodb.net
+2024-09-30T11:38:30.691Z [INFO]: Retrying to connect in 5 seconds... (3 attempts left)
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-30T11:38:48.141Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T11:38:58.676Z"}
+2024-09-30T11:39:29.811Z [ERROR]: Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.bharatlinkerproducts.qnv1x.mongodb.net
+2024-09-30T11:39:29.812Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-30T11:40:02.284Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T11:40:07.454Z"}
+2024-09-30T11:40:37.563Z [ERROR]: Error connecting to MongoDB: querySrv ETIMEOUT _mongodb._tcp.bharatlinkerproducts.qnv1x.mongodb.net
+2024-09-30T11:40:37.565Z [INFO]: Retrying to connect in 5 seconds... (4 attempts left)
+2024-09-30T11:40:43.775Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T11:48:56.566Z"}
+2024-09-30T11:48:59.436Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2024-09-30T11:58:36.470Z"}
+{"level":"info","message":"SIGINT signal received: closing server"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T11:58:50.568Z"}
+2024-09-30T11:58:53.331Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T12:01:08.617Z"}
+2024-09-30T12:01:11.032Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T12:06:43.826Z"}
+2024-09-30T12:06:47.217Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T12:12:36.218Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T12:12:41.772Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T12:12:45.864Z"}
+2024-09-30T12:12:47.168Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-09-30T12:44:59.146Z"}
+2024-09-30T12:45:02.205Z [INFO]: Successfully connected to MongoDB: BharatLinkerProducts
+{"level":"info","message":"Server is running at port 3001"}
