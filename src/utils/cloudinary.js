@@ -1,6 +1,5 @@
-
 import { v2 as cloudinary } from 'cloudinary';
-import { Readable } from 'stream';  // ES module syntax for streams
+import { Readable } from 'stream';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -22,18 +21,16 @@ cloudinary.config({
  * Uploads an image buffer to Cloudinary and returns the URL.
  *
  * @param {Buffer} fileBuffer - The file buffer to upload.
- * @param {string} filename - The original name of the file.
  * @returns {Promise<string|null>} The URL of the uploaded file or null if the upload fails.
  */
-const uploadOnCloudinary = (fileBuffer, filename) => {
+const uploadOnCloudinary = (fileBuffer) => {
     return new Promise((resolve, reject) => {
         const uploadStream = cloudinary.uploader.upload_stream({ resource_type: 'auto' }, (error, result) => {
             if (error) {
                 console.error('Cloudinary upload failed:', error);
-                reject(null);
-            } else {
-                resolve(result.url);  // Return the uploaded file's URL
+                return reject(null); // Reject with null on error
             }
+            resolve(result.url);  // Return the uploaded file's URL
         });
 
         // Create a readable stream from the buffer and pipe it to Cloudinary
