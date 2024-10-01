@@ -2,7 +2,7 @@ import { Product } from '../../models/productModel.js'
 import { asyncHandler } from '../../utils/asyncHandler.js'
 import { uploadOnCloudinary } from '../../utils/cloudinary.js'
 import { ApiFeatures } from '../../utils/apiFeatures.js';
-
+import mongoose from 'mongoose';
 import cloudinary from 'cloudinary';
 
 
@@ -259,21 +259,28 @@ const deleteProduct = asyncHandler(async (req, res) => {
 
 //VERIFIED
 const getProductByShopId = asyncHandler(async (req, res) => {
-    const shopId = req.query.shopId; // Get the shop ID from query params
+    const shopId = req.query.shopId;
+    const page = parseInt(req.query.page) || 1; // Default to page 1 if not provided
+    const limit = parseInt(req.query.limit) || 1; // Default limit
 
     // Check if the shopId is provided
     if (!shopId) {
         return res.status(400).json({ message: "Shop ID is required." });
     }
 
-    try {
-        // Find products associated with the shop ID
-        const products = await Product.find({ shop: shopId });
+    // Trim the shopId to remove whitespace
+    const trimmedShopId = shopId.trim();
 
-        // Check if products are found
-        if (products.length === 0) {
-            return res.status(404).json({ message: "No products found for this shop." });
-        }
+    // Validate if shopId is a valid ObjectId
+    if (!mongoose.Types.ObjectId.isValid(trimmedShopId)) {
+        return res.status(400).json({ message: "Invalid Shop ID format." });
+    }
+
+    try {
+        // Paginate the products associated with the shop ID
+        const products = await Product.find({ shop: trimmedShopId })
+            .skip((page - 1) * limit)
+            .limit(limit);
 
         // Respond with the list of products
         res.status(200).json({ message: "Products retrieved successfully.", products });
@@ -282,6 +289,7 @@ const getProductByShopId = asyncHandler(async (req, res) => {
         res.status(500).json({ message: 'Server error occurred while retrieving products.', error });
     }
 });
+
 
 //VERIFIED
 const getProductDetails = asyncHandler(async (req, res) => {
@@ -311,19 +319,21 @@ const getProductDetails = asyncHandler(async (req, res) => {
 
 
 const getProducts = asyncHandler(async (req, res) => {
-    // Define results per page
     const resultsPerPage = 10;
 
-    // Create a query for products
     const apiFeatures = new ApiFeatures(Product.find(), req.query)
-        .filter() // Apply filters
-        .paginate(resultsPerPage); // Apply pagination
+        .search()               // Add search functionality
+        .filterByPincode()
+        .filterByCategory()
+        .filterByBrand()
+        .sortByPrice()
+        .pagination(resultsPerPage);  // Add pagination
 
-    // Execute query
+    // Execute query to get products
     const products = await apiFeatures.query;
-
-    // Count total products after filtering
-    const totalProducts = await Product.countDocuments(apiFeatures.query);
+    console.log("ko",products)
+    // Clone the query to use it for counting documents
+    const totalProducts = await Product.countDocuments(apiFeatures.query.clone());
 
     // Respond with the products and metadata
     res.status(200).json({

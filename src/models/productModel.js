@@ -19,6 +19,9 @@ const productSchema = new Schema({
         ref: 'Shop',
         required: true
     },
+    category:{
+        type:String
+    },
     keywords: [{
         type: String
     }],
