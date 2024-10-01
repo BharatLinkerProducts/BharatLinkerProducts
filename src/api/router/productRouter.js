@@ -2,7 +2,7 @@ import { Router } from 'express';
 import {  
     deleteProductImage,uploadProductImages,updateProductData ,
     deleteProduct,getProductByShopId,getProductDetails,getProducts,
-    uploadProduct}  from '../controller/productController.js';
+    uploadProduct,getHomePageProducts}  from '../controller/productController.js';
     
 import { upload } from '../middleware/multerMiddleWare.js';
 
@@ -19,6 +19,8 @@ productRouter.route('/deleteproduct').put(upload.array('images'), deleteProduct)
 productRouter.route('/getproductbyshopid').get(upload.array('images'), getProductByShopId);
 productRouter.route('/getproductdetails').get(upload.array('images'), getProductDetails);
 productRouter.route('/getproducts').get(upload.array('images'), getProducts);
+
+productRouter.route('/gethomepageproducts').get(upload.array('images'), getHomePageProducts);
 
 //product image
 productRouter.route('/uploadproductimage').put(upload.array('images'), uploadProductImages);

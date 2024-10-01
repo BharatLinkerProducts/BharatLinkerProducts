@@ -344,10 +344,54 @@ const getProducts = asyncHandler(async (req, res) => {
     });
 });
 
+const getHomePageProducts = async (req, res) => {
+    try {
+        // Expecting a comma-separated string of pincodes from the frontend
+        const pincodesString = req.query.pincodes;
+        const pincodes = pincodesString.split(',').map(pin => Number(pin.trim())); // Convert to an array of numbers
+
+        const page = parseInt(req.query.page) || 1;  // Default page = 1
+        const limit = parseInt(req.query.limit) || 10;  // Default limit = 10
+
+        // Validate pincodes
+        if (!Array.isArray(pincodes) || pincodes.length === 0 || pincodes.some(isNaN)) {
+            return res.status(400).json({ message: 'Pincode array is required, cannot be empty, and must be valid numbers.' });
+        }
+console.log(pincodes)
+        // Get random products based on pincodes and paginate
+        const products = await Product.aggregate([
+            { $match: { pinCodes: { $in: pincodes } } },  // Filter products by pincodes
+            { $sample: { size: limit } }  // Randomize the products
+        ])
+        .skip((page - 1) * limit)  // Skip products for pagination
+        .limit(limit);  // Limit the number of products per page
+
+        if (products.length === 0) {
+            return res.status(404).json({ message: 'No products found for the given pincodes.' });
+        }
+
+        // Count total number of products matching the pincode for pagination info
+        const totalProducts = await Product.countDocuments({ pinCodes: { $in: pincodes } });
+
+        // Send the paginated and randomized product list
+        return res.status(200).json({
+            products,
+            totalProducts,
+            totalPages: Math.ceil(totalProducts / limit),
+            currentPage: page
+        });
+
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ message: 'Internal server error' });
+    }
+};
+
+
 
 
 export {
     deleteProductImage, uploadProductImages, updateProductData,
     deleteProduct, getProductByShopId, getProductDetails, getProducts,
-    uploadProduct
+    uploadProduct,getHomePageProducts
 };
