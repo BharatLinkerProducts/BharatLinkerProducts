@@ -8,13 +8,12 @@ import cloudinary from 'cloudinary';
 
 //VERIFIED
 const uploadProduct = asyncHandler(async (req, res) => {
+    console.log("lp");
     try {
         const {
-            title, description,price, discountedPrice, quantityAvailable, brand, keywords,
-            shop
+            title, description, price, category, quantityAvailable, brand, shop, pincodes
         } = req.body;
-console.log(title, description,price, discountedPrice, quantityAvailable, brand, keywords,
-    shop)
+
         const files = req.files;  // Handling multiple files
 
         // Check if files are provided
@@ -29,17 +28,27 @@ console.log(title, description,price, discountedPrice, quantityAvailable, brand,
             images.push(imageUrl); // Push each image URL to the array
         }
 
+        // Convert pincodes to an array of numbers (assuming it is passed as a string of comma-separated values)
+        const pinCodesArray = Array.isArray(pincodes) 
+            ? pincodes.map(pin => Number(pin)) // If it's already an array, map to numbers
+            : pincodes.split(',').map(pin => Number(pin)); // Otherwise, split and map to numbers
+
+        // Check for invalid pincode entries (NaN)
+        if (pinCodesArray.some(isNaN)) {
+            return res.status(400).json({ message: "Invalid pincode(s) provided." });
+        }
+
         // Create a new product instance using the provided model
         const newProduct = new Product({
             title,
             description,
             price,
-            discountedPrice,
             quantityAvailable,
+            category,
             brand,
-            keywords,
             shop,
-            images // Store array of image URLs
+            images,
+            pinCodes: pinCodesArray, // Use the array of numbers
         });
 
         // Save the new product to the database
@@ -62,8 +71,9 @@ console.log(title, description,price, discountedPrice, quantityAvailable, brand,
 
 //VERIFIED
 const updateProductData = asyncHandler(async (req, res) => {
-    const { productId } = req.query; // Extracting productId from the query parameters
-    const { title, description, pinCodes, price, discountedPrice, quantityAvailable, keywords, brand } = req.body;
+    const productId= req.query.productId; // Extracting productId from the query parameters
+    
+    const { title, description, pinCodes, price, discountedPrice, quantityAvailable, keywords, brand,category } = req.body;
 
     // Check if the productId is provided
     if (!productId) {
@@ -86,6 +96,8 @@ const updateProductData = asyncHandler(async (req, res) => {
     if (price) updates.price = price;
     if (discountedPrice) updates.discountedPrice = discountedPrice;
     if (quantityAvailable) updates.quantityAvailable = quantityAvailable;
+    if (brand) updates.brand= brand;
+    if (category) updates.category= category;
 
     // Handle keywords if provided
     if (keywords) {
@@ -93,11 +105,6 @@ const updateProductData = asyncHandler(async (req, res) => {
         updates.keywords = keywordData;
     }
 
-    // Handle brand if provided
-    if (brand) {
-        const brandData = Array.isArray(brand) ? brand : brand.split(',');
-        updates.brand = brandData;
-    }
 
     // If there are no updates, respond with a message
     if (Object.keys(updates).length === 0) {
@@ -108,7 +115,6 @@ const updateProductData = asyncHandler(async (req, res) => {
         // Find the product by ID and update it with the new data
         const updatedProduct = await Product.findByIdAndUpdate(productId, updates, {
             new: true, // Return the updated document
-            runValidators: true, // Run schema validation
         });
 
         // Check if the product was found and updated
@@ -163,7 +169,7 @@ const deleteProductImage = asyncHandler(async (req, res) => {
 //VERIFIED
 const uploadProductImages = asyncHandler(async (req, res) => {
     const { productId } = req.body;
-    const images = [];
+    const newImages = []; // Array to store newly uploaded image URLs
     const files = req.files; // Use req.files containing buffers due to memory storage
 
     // Validate productId and files
@@ -181,7 +187,7 @@ const uploadProductImages = asyncHandler(async (req, res) => {
             // Assuming uploadOnCloudinary accepts a buffer and file name
             const imageUrl = await uploadOnCloudinary(file.buffer, file.originalname);
             if (imageUrl) {
-                images.push(imageUrl); // Push the image URL to the images array if the upload is successful
+                newImages.push(imageUrl); // Push the image URL to the newImages array if the upload is successful
             } else {
                 return res.status(500).json({ message: "Error uploading one or more images." });
             }
@@ -194,15 +200,15 @@ const uploadProductImages = asyncHandler(async (req, res) => {
         }
 
         // Append new images to the existing ones
-        product.images = [...product.images, ...images];
+        product.images = [...product.images, ...newImages];
 
         // Save the updated product
         await product.save();
 
-        // Respond with success and the updated images
+        // Respond with success and the newly added image URLs
         res.status(200).json({
             message: "Images uploaded successfully!",
-            images: product.images
+            images: newImages
         });
     } catch (error) {
         console.error("Error uploading product images:", error);
@@ -213,9 +219,11 @@ const uploadProductImages = asyncHandler(async (req, res) => {
     }
 });
 
+
 //VRIFIED
 const deleteProduct = asyncHandler(async (req, res) => {
     const productId = req.query.productId;
+    console.log(productId)
     // Check if the productId is provided
     if (!productId) {
         return res.status(400).json({ message: "Product ID is required." });
@@ -261,7 +269,7 @@ const deleteProduct = asyncHandler(async (req, res) => {
 const getProductByShopId = asyncHandler(async (req, res) => {
     const shopId = req.query.shopId;
     const page = parseInt(req.query.page) || 1; // Default to page 1 if not provided
-    const limit = parseInt(req.query.limit) || 1; // Default limit
+    const limit = parseInt(req.query.limit) || 5; // Default limit
 
     // Check if the shopId is provided
     if (!shopId) {

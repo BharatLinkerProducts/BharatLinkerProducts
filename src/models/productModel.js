@@ -20,7 +20,8 @@ const productSchema = new Schema({
         required: true
     },
     category:{
-        type:String
+        type: String,
+        trim: true
     },
     keywords: [{
         type: String
@@ -31,10 +32,10 @@ const productSchema = new Schema({
     discountedPrice: {
         type: Number
     },
-    brand: [{
+    brand:{
         type: String,
         trim: true
-    }],
+    },
     ratings: {
         type: Number,
         default: 0,

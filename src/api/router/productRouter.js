@@ -13,7 +13,7 @@ productRouter.route('/uploadproduct').post(upload.array('images'), uploadProduct
 productRouter.route('/updateproductdata').put(upload.array('images'), updateProductData);
 
 //delet product
-productRouter.route('/deleteproduct').put(upload.array('images'), deleteProduct);
+productRouter.route('/deleteproduct').post(upload.array('images'), deleteProduct);
 
 //get products
 productRouter.route('/getproductbyshopid').get(upload.array('images'), getProductByShopId);
