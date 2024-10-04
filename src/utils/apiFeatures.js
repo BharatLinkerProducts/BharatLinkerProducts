@@ -23,7 +23,6 @@ class ApiFeatures {
 
     filterByPincode() {
         const pincode = this.queryStr.pincode;
-        console.log(pincode)
         if (pincode) {
             const pincodeArray = pincode.split(',').map(pin => Number(pin.trim())); // Convert to numbers
             console.log(pincodeArray); // Debugging: Ensure they are numbers

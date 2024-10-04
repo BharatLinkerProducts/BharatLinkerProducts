@@ -29,7 +29,7 @@ const uploadProduct = asyncHandler(async (req, res) => {
         }
 
         // Convert pincodes to an array of numbers (assuming it is passed as a string of comma-separated values)
-        const pinCodesArray = Array.isArray(pincodes) 
+        const pinCodesArray = Array.isArray(pincodes)
             ? pincodes.map(pin => Number(pin)) // If it's already an array, map to numbers
             : pincodes.split(',').map(pin => Number(pin)); // Otherwise, split and map to numbers
 
@@ -71,9 +71,9 @@ const uploadProduct = asyncHandler(async (req, res) => {
 
 //VERIFIED
 const updateProductData = asyncHandler(async (req, res) => {
-    const productId= req.query.productId; // Extracting productId from the query parameters
-    
-    const { title, description, pinCodes, price, discountedPrice, quantityAvailable, keywords, brand,category } = req.body;
+    const productId = req.query.productId; // Extracting productId from the query parameters
+
+    const { title, description, pinCodes, price, discountedPrice, quantityAvailable, keywords, brand, category } = req.body;
 
     // Check if the productId is provided
     if (!productId) {
@@ -96,8 +96,8 @@ const updateProductData = asyncHandler(async (req, res) => {
     if (price) updates.price = price;
     if (discountedPrice) updates.discountedPrice = discountedPrice;
     if (quantityAvailable) updates.quantityAvailable = quantityAvailable;
-    if (brand) updates.brand= brand;
-    if (category) updates.category= category;
+    if (brand) updates.brand = brand;
+    if (category) updates.category = category;
 
     // Handle keywords if provided
     if (keywords) {
@@ -327,72 +327,58 @@ const getProductDetails = asyncHandler(async (req, res) => {
 
 
 const getProducts = asyncHandler(async (req, res) => {
-    const resultsPerPage = 10;
-
-    const apiFeatures = new ApiFeatures(Product.find(), req.query)
-        .search()               // Add search functionality
+        const resultsPerPage = 20;
+        const currentPage = Number(req.query.page) || 1;
+    
+    
+        const apiFeatures = new ApiFeatures(Product.find(), req.query)
+        .search()    
         .filterByPincode()
         .filterByCategory()
         .filterByBrand()
-        .sortByPrice()
-        .pagination(resultsPerPage);  // Add pagination
+        .sortByPrice();
+    
+        const totalProducts = await Product.countDocuments(apiFeatures.query.clone());
+        const products = await apiFeatures.query
+            .skip(resultsPerPage * (currentPage - 1))
+            .limit(resultsPerPage);
+    
+        const totalPages = Math.ceil(totalProducts / resultsPerPage);
+    
+        res.status(200).json({
+            message: "Products retrieved successfully.",
+            products,
+            totalProducts,
+            resultsPerPage,
+            currentPage,
+            totalPages,
+        });
+});
 
-    // Execute query to get products
-    const products = await apiFeatures.query;
-    console.log("ko",products)
-    // Clone the query to use it for counting documents
+
+const getHomePageProducts = async (req, res) => {
+    const resultsPerPage = 20;
+    const currentPage = Number(req.query.page) || 1;
+
+
+    const apiFeatures = new ApiFeatures(Product.find(), req.query)
+        .filterByPincode()
+
     const totalProducts = await Product.countDocuments(apiFeatures.query.clone());
+    const products = await apiFeatures.query
+        .skip(resultsPerPage * (currentPage - 1))
+        .limit(resultsPerPage);
 
-    // Respond with the products and metadata
+    const totalPages = Math.ceil(totalProducts / resultsPerPage);
+
     res.status(200).json({
         message: "Products retrieved successfully.",
         products,
         totalProducts,
         resultsPerPage,
+        currentPage,
+        totalPages,
     });
-});
-
-const getHomePageProducts = async (req, res) => {
-    try {
-        // Expecting a comma-separated string of pincodes from the frontend
-        const pincodesString = req.query.pincodes;
-        const pincodes = pincodesString.split(',').map(pin => Number(pin.trim())); // Convert to an array of numbers
-
-        const page = parseInt(req.query.page) || 1;  // Default page = 1
-        const limit = parseInt(req.query.limit) || 10;  // Default limit = 10
-
-        // Validate pincodes
-        if (!Array.isArray(pincodes) || pincodes.length === 0 || pincodes.some(isNaN)) {
-            return res.status(400).json({ message: 'Pincode array is required, cannot be empty, and must be valid numbers.' });
-        }
-console.log(pincodes)
-        // Get random products based on pincodes and paginate
-        const products = await Product.aggregate([
-            { $match: { pinCodes: { $in: pincodes } } },  // Filter products by pincodes
-            { $sample: { size: limit } }  // Randomize the products
-        ])
-        .skip((page - 1) * limit)  // Skip products for pagination
-        .limit(limit);  // Limit the number of products per page
-
-        if (products.length === 0) {
-            return res.status(404).json({ message: 'No products found for the given pincodes.' });
-        }
-
-        // Count total number of products matching the pincode for pagination info
-        const totalProducts = await Product.countDocuments({ pinCodes: { $in: pincodes } });
-
-        // Send the paginated and randomized product list
-        return res.status(200).json({
-            products,
-            totalProducts,
-            totalPages: Math.ceil(totalProducts / limit),
-            currentPage: page
-        });
-
-    } catch (error) {
-        console.error(error);
-        return res.status(500).json({ message: 'Internal server error' });
-    }
 };
 
 
@@ -401,5 +387,5 @@ console.log(pincodes)
 export {
     deleteProductImage, uploadProductImages, updateProductData,
     deleteProduct, getProductByShopId, getProductDetails, getProducts,
-    uploadProduct,getHomePageProducts
+    uploadProduct, getHomePageProducts
 };
