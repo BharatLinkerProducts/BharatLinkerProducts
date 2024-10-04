@@ -327,7 +327,7 @@ const getProductDetails = asyncHandler(async (req, res) => {
 
 
 const getProducts = asyncHandler(async (req, res) => {
-        const resultsPerPage = 20;
+        const resultsPerPage = Number(req.query.productsPerPage)||20;
         const currentPage = Number(req.query.page) || 1;
     
     
