@@ -6,7 +6,7 @@ import helmet from 'helmet';
 import compression from 'compression';
 import rateLimit from 'express-rate-limit';
 import productRouter from './src/api/router/productRouter.js'; // Ensure this path is correct
-//hi
+
 // Load environment variables from .env
 dotenv.config();
 
